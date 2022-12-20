@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Unbounded:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Tiasa Singha Roy</title>
+</head>
+<body>
+
+  <div class="landing">
+    <div class="navbar" id="navbar">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#publications">Publications</a>
+      <a href="#work">Work</a>
+      <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <h2 class="primary-heading">Hi, I am Tiasa!</h2>
+    <div class="landing-image"></div>
+  </div>
+
+  <div class="quote">
+    <div class="main-quote">
+      <p>"Something really cool that a smart guy who knows ML must've said"</p>
+    </div>
+    <p class="quoter">-ML Dudebr0</p>
+  </div>
+
+  <div class="about" id="about">
+    <div class="about-grid">
+      <div class="about-image">
+        <img src="/assets/about.jpeg" class="image-about">
+      </div>
+      <div class="about-text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula consequat maximus. Praesent euismod, tortor
+          non
+          feugiat luctus, erat nulla molestie nulla, id faucibus nunc nisl at mauris. Pellentesque at tristique augue.
+          Vestibulum
+          consectetur massa vel rhoncus interdum. Donec eros erat, lacinia sit amet urna sed, lacinia posuere lorem.<br><br>
+      
+          Aenean eros orci, cursus sed ex sed, mollis efficitur nunc. Nulla ut pretium orci, sit amet rhoncus erat. Proin
+          molestie
+          urna ante, eu dictum metus condimentum quis. Fusce laoreet libero in nibh faucibus, eu tincidunt justo efficitur.
+          Phasellus ut ligula non nibh pulvinar porttitor. In placerat ornare mi, ac gravida ante luctus ac.<br><br>
+      
+          Aliquam erat volutpat. Aliquam sit amet justo convallis, vulputate lacus id, pellentesque augue. Nam placerat massa
+          ut
+          dignissim interdum. Praesent in imperdiet lorem. Quisque commodo fringilla ligula eu gravida. Quisque rutrum turpis
+          aliquam, maximus sem eu, accumsan tortor. Nunc convallis malesuada mi quis pulvinar. Quisque quis auctor ipsum, ac
+          sagittis sem.
+        </p>
+      </div>
+    </div>
+    <button class="resume">My Resume</button>
+  </div>
+
+  <div class="skills" id="skills">
+    <div class="skills-grid">
+      <div class="skill1">
+        <img src="/assets/python.png" class="skill-image">
+        <p class="secondary-heading">Python</p>
+        <p class="skills-text">Totor non feugiat luctus, erat nulla molestie nulla, id faucibus nunc nisl at mauris. Pellentesque at tristique augue.
+        Vestibulum consectetur massa vel rhoncus interdum. Donec eros erat, lacinia sit amet urna sed, lacinia posuere lorem.</p>
+      </div>
+      <div class="skill2">
+        <img src="/assets/ML.png" class="skill-image">
+        <p class="secondary-heading">Machine Learning</p>
+        <p class="skills-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula consequat maximus. Praesent euismod, tortor non
+        feugiat luctus, erat nulla molestie nulla, id faucibus nunc nisl at mauris. Pellentesque at tristique augue. Vestibulum
+        consectetur massa vel rhoncus interdum. Donec eros erat, lacinia sit amet urna sed, lacinia posuere lorem.</p>
+      </div>
+      <div class="skill3">
+        <img src="/assets/dbms.png" class="skill-image">
+        <p class="secondary-heading">Database Management</p>
+        <p class="skills-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula consequat maximus. Praesent euismod, tortor non
+        feugiat luctus, erat nulla molestie nulla, id faucibus nunc nisl at mauris. Pellentesque at tristique augue.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="publications" id="publications">
+    <h2 class="primary-heading">Publications</h2>
+    <div class="publication-grid">
+      <div class="paper">
+        <p class="paper-name">CyberPolice: Classification of Cyber Sexual Harassment</p>
+        <p class="authors">Priyam Basu, Tiasa Singha Roy, Soham Tiwari & Saksham Mehta</p>
+        <p class="workshop">EPIA 2021</p>
+        <a href="#" class="paper-link">Link to the paper</a>
+      </div>
+      <div class="paper">
+        <p class="paper-name">But how robust is RoBERTa actually?: A Benchmark of SOTA Transformer Networks for Sexual Harassment Detection on Twitter</p>
+        <p class="authors">Priyam Basu, Tiasa Singha Roy & Ashima Singhal</p>
+        <p class="workshop">IEEE I-SMAC 2021</p>
+        <a href="#" class="paper-link">Link to the paper</a>
+      </div>
+      <div class="paper">
+        <p class="paper-name">Benchmarking Differential Privacy and Federated Learning for BERT Models</p>
+        <p class="authors">Priyam Basu, Tiasa Singha Roy, Rakshit Naidu, Zumrut Muftuoglu, Sahib Singh & Fatemehsadat Mireshghallah</p>
+        <p class="workshop">ML4Data workshop at ICML 2021 (A* Conference)</p>
+        <a href="#" class="paper-link">Link to the paper</a>
+      </div>
+      <div class="paper">
+        <p class="paper-name">Privacy enabled Financial Text Classification using Differential Privacy and Federated Learning</p>
+        <p class="authors">Priyam Basu, Tiasa Singha Roy, Rakshit Naidu & Zumrut Muftuoglu</p>
+        <p class="workshop">EcoNLP Workshop at EMNLP 2021</p>
+        <a href="#" class="paper-link">Link to the paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="work" id="work">
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <p class="work-heading">Nanyang Technological University Singapore, June'22</p>
+          <p class="work-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim
+            fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <p class="work-heading">Indian School of Business, June'22</p>
+          <p class="work-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim
+            fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <p class="work-heading">Manipal Institute of Technology, July'21 — Nov'22</p>
+          <p class="work-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim
+            fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <p class="work-heading">LegalAI, Mar'22 — Apr'22</p>
+          <p class="work-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim
+            fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <p class="work-heading">entomo, Jun'21 — Feb'22</p>
+          <p class="work-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim
+            fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <p class="work-heading">Jounetsu Solutions Pvt Ltd, May'21 — Jun'21</p>
+          <p class="work-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim
+            fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="social-media-icons">
+      <a href="https://www.linkedin.com/in/tiasa-singha-roy-07b6b31b1/" id="icons" class="fa fa-linkedin"></a>
+      <a href="https://github.com/tiasa2" id="icons" class="fa fa-github"></a>
+      <a href="mailto:tiasa.singharoy@gmail.com" id="icons" class="fa fa-google"></a>
+      <a href="https://scholar.google.com/citations?user=Sns0KJYAAAAJ&hl=en" id="icons" class="fa fa-graduation-cap"></a>
+    </div>
+  </div>
+  
+  <script>
+    function navFunction() {
+      var x = document.getElementById("navbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+  </script>
+
+</body>
+</html>
