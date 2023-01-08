@@ -336,8 +336,7 @@
     margin: 20px 0px;
   }
   .skills-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas: "skill1" "skill2" "skill3";
+    padding:0 30px;
   }
   .publications {
     padding: 20px;
