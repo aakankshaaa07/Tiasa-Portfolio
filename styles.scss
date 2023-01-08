@@ -122,28 +122,9 @@
 }
 
 .skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "skill1 skill2 skill3";
-}
-
-.skill1 {
-  grid-area: skill1;
-}
-
-.skill2 {
-  grid-area: skill2;
-  margin: 0px 20px;
-}
-
-.skill3 {
-  grid-area: skill3;
-}
-
-.skill-image {
+  padding: 0px 200px;
+  width: 100%;
   display: block;
-  width: 100px;
-  height: 100px;
   margin: 0 auto;
 }
 
@@ -156,10 +137,14 @@
   text-align: center;
 }
 
-.skills-text {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  margin-top: 10px;
+.skill-button {
+  background-color: #2F455C;
+  color: #21D0B2;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .publications {
